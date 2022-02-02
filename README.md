@@ -7,7 +7,7 @@ So for this work we are going to do an analsys on credit card risk. Credit risk 
 - Use Ensemble Classifiers to Predict Credit Risk  
 We will evaluate each model and compared them. According to the results we will anañyze if it´s worth using it for this project.
 
-## Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+## Results
 
 ### Oversampling (Naive Random Oversampling)  
 ![lo](https://github.com/ManuelRuizF/Credit_Risk_Analysis/blob/main/resources/1.%20naive%20r%20oversampling.PNG)  
@@ -47,4 +47,5 @@ We will evaluate each model and compared them. According to the results we will 
 
 
 
-## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+## Summary
+For the credit card and fintech industry I wouldn´t recommend none of the models. 5/6 of the models couldn´t even reach 70% accuracy. The Easy Ensemble Adaboost Classifier model had a 93% of accuracy, **but** with a low precision we can stilll have false positive or the other way around. So for an industry that is money related and we want a six zigma percentage on credi risks, I wouldnt reccommmend this model either.
